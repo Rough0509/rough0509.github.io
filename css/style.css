@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#gen {
+		background: url(../img/raf.jpg) repeat-x center;
+		height: 2500px;
+}
+#pub {
+	text-align: center;
+	padding-top: 66px;
+}
+
+.text {
+	font-size: 80px;
+	font-family: CASTELLAR;
+	color:#CE3B55;
+	float: right;
+	margin-right: 40px;
+}
+
+.frame {
+	
+	border: 2px solid silver;
+	margin-top: 1500px;
+	margin-left: 570px;
+}
+
+.left {
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 20px;
+	color: white;
+}
