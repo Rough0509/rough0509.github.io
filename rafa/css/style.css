@@ -1,0 +1,125 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background-color: grey;
+	color: #fafafa;
+}
+a {
+	text-decoration: none;
+}
+
+/*стили для шапки*/
+
+header {
+	float: left;
+	width: 98%;
+	height: 50px%;
+	padding: 1%;
+	border-bottom: 2px solid white;
+}
+
+header .logo {
+	width: 25%;
+	float: left;
+	font-size: 2em;
+	font-family: AR DESTINE;
+	color: #fafafa;
+}
+
+header .logo a {
+	text-decoration: none;
+	
+}
+
+
+header .menu {
+	width: 20%;
+	float: left;
+	font-family: Tahoma;
+	margin-top: 9px;
+	color: #fafafa;
+}
+
+header .menu a{
+	text-decoration: none;
+	color: #fafafa;
+}
+
+header .menu a:hover {
+	border-bottom: 4px solid black;
+	background: #fafafa;
+	color: grey;
+}
+ 
+header .sign {
+	float: right;
+	margin-top: 9px;
+	font-family: Tahoma;
+	color: #fafafa;
+}
+
+header .sign a {
+	text-decoration: none;
+	color: #fafafa;
+}
+
+header .sign a:hover {
+	background: white;
+	border-bottom: 3px solid black;
+	color: grey;
+}
+
+/* стили для контента */
+
+.container {
+	margin-top: 40px;
+}
+
+.container .content {
+	float: left;
+	width: 56%;
+	height: 690px;
+	border: 2px solid white;
+}
+
+.container .sidebar {
+	float: left;
+	width: 42%;
+	height: 690px;
+	border: 2px solid white;
+	margin-left: 20px;
+}
+
+
+/* стили для футера */
+
+footer {
+	border-top: 2px solid silver;
+	margin-top: 10px;
+	padding: 1%;
+	padding-bottom: 2%;
+	font-family: impact;
+	font-size: 0.8em;
+	}
+
+	#page-wrap:after {
+	content:"";
+	display: block;
+}
+footer, #page-wrap:after {height: 10px}
+#page-wrap {
+	min-height: 94%;
+	margin-bottom: -10px;
+	
+}
+
+.center {
+	margin-left: 380px;
+}
+
+.centered {
+	margin-left: 50px;
+}
